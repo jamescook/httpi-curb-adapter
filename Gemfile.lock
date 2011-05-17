@@ -1,0 +1,50 @@
+GIT
+  remote: git@github.com:jamescook/httpi.git
+  revision: 5cddb619ae8ed84072aabba0267b0eafeabcd514
+  branch: split_adapters
+  specs:
+    httpi (0.9.4)
+      pyu-ntlm-http (>= 0.1.3.1)
+      rack
+
+GIT
+  remote: https://github.com/djanowski/mock-server.git
+  revision: ba97239b94c4ae7f62f80fb32e0b7dde884d3411
+  specs:
+    mock-server (0.1.1)
+      sinatra
+
+PATH
+  remote: .
+  specs:
+    httpi-adapter-curb (0.0.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    curb (0.7.15)
+    diff-lcs (1.1.2)
+    pyu-ntlm-http (0.1.3.1)
+    rack (1.2.2)
+    rspec (2.6.0)
+      rspec-core (~> 2.6.0)
+      rspec-expectations (~> 2.6.0)
+      rspec-mocks (~> 2.6.0)
+    rspec-core (2.6.0)
+    rspec-expectations (2.6.0)
+      diff-lcs (~> 1.1.2)
+    rspec-mocks (2.6.0)
+    sinatra (1.2.6)
+      rack (~> 1.1)
+      tilt (< 2.0, >= 1.2.2)
+    tilt (1.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  curb (~> 0.7.8)
+  httpi!
+  httpi-adapter-curb!
+  mock-server!
+  rspec (~> 2.2)
